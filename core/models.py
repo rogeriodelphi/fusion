@@ -1,6 +1,12 @@
+import uuid
 from django.db import models
 
 from stdimage.models import StdImageField
+
+def get_file_path(_intance, filename):
+    ext = filename.split('.')[-1]
+    filename = f'{uuid.uuid4()}.{ext}'
+    return filename
 
 
 class Base(models.Model):
@@ -22,7 +28,7 @@ class Servico(Base):
     }
     servico = models.CharField('Serviço', max_length=100)
     descricao = models.TextField('Descrição', max_length=200)
-    icone = models.CharField('Ícone', max_length=12, choices=ICONE_CHOICES)
+    icone = models.CharField('Ícone', max_length=13, choices=ICONE_CHOICES)
 
     class Meta:
         verbose_name: 'Serviço'
@@ -47,7 +53,7 @@ class Funcionario(Base):
     nome = models.CharField('Nome', max_length=100)
     cargo = models.ForeignKey('core.cargo', verbose_name='Cargo', on_delete=models.CASCADE)
     bio = models.TextField('Bio', max_length=200)
-    imagem = StdImageField('Imagem', upload_to='equipe', variations={'tumb': {'with':480, 'height':480, 'crop':True}})
+    imagem = StdImageField('Imagem', upload_to=get_file_path, variations={'tumb': {'with':480, 'height':480, 'crop':True}})
     facebook = models.CharField('Facebook', max_length=100, default='#')
     twiter = models.CharField('Twiter', max_length=100, default='#')
     instagram = models.CharField('Instagram', max_length=100, default='#')
