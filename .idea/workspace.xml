@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -279,7 +279,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988831" weight="0.32344213" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937685" />
-      <window_info active="true" anchor="bottom" x="10" y="265" width="1343" height="193" id="Terminal" order="8" sideWeight="0.4988831" visible="true" weight="0.252443" />
+      <window_info active="true" anchor="bottom" x="10" y="265" width="1343" height="193" id="Terminal" order="8" sideWeight="0.4988831" visible="true" weight="0.37296417" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50111693" side_tool="true" weight="0.3436482" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32789317" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -512,7 +512,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
