@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253ca8a3-4a93-4561-8a2c-313cde74067c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fusion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fusion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvFusion/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venvFusion/Lib/site-packages/easy-install.pth" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fusion/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="180">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
@@ -73,27 +75,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/features.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -106,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/fusion/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#222#231#0" expanded="true" />
               </folding>
@@ -203,6 +184,12 @@
             <path>
               <item name="fusion" type="b2602c69:ProjectViewProjectNode" />
               <item name="fusion" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fusion" type="462c0819:PsiDirectoryNode" />
               <item name="fusion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,9 +255,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1372" height="732" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49673203" visible="true" weight="0.2658228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49673203" visible="true" weight="0.18838422" />
       <window_info id="Structure" order="1" sideWeight="0.503268" side_tool="true" weight="0.2658228" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3298585" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -281,7 +267,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988831" weight="0.32344213" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937685" />
-      <window_info active="true" anchor="bottom" x="10" y="265" width="1343" height="193" id="Terminal" order="8" sideWeight="0.4988831" visible="true" weight="0.37296417" />
+      <window_info active="true" anchor="bottom" x="10" y="265" width="1343" height="193" id="Terminal" order="8" sideWeight="0.4988831" visible="true" weight="0.39413682" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50111693" side_tool="true" weight="0.3436482" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32789317" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -462,7 +448,7 @@
     <entry file="file://$PROJECT_DIR$/fusion/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#222#231#0" expanded="true" />
           </folding>
@@ -511,10 +497,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/migrations/0002_auto_20191105_1023.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fusion/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="180">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
