@@ -15,8 +15,10 @@ class IndexView(FormView):
         context['servicos'] = Servico.objects.order_by('?').all()
         context['funcionarios'] = Funcionario.objects.order_by('?').all()
         context['recursos'] = list(Recurso.objects.order_by('?').all())
-        context['meialista'] = int(len(context['recursos']))
-        print (f"Testando:{type(context['recursos'])}")
+        context['meialista1'] = str(len(context['recursos']) // 2) + ':'
+        context['meialista2'] = ':'.join(str(len(context['recursos']) // 2))
+        print(context['meialista1'])
+        print(context['meialista2'])
         return context
 
 
