@@ -73,6 +73,9 @@ class Recurso (Base):
         ('lni-leaf', 'Folha'),
         ('lni-layers', 'Design'),
         ('lni-mobile', 'Mobile'),
+        ('lni-stats-up', 'Gráfico'),
+        ('lni-users', 'Usuários'),
+
     }
     recurso = models.CharField('Recurso', max_length=100)
     descricao = models.TextField('Descrição', max_length=200)
