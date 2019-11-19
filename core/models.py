@@ -26,8 +26,8 @@ class Servico(Base):
         ('lni-mobile', 'Mobile'),
         ('lni-rocket', 'Foguete'),
     }
-    servico = models.CharField('Serviço', max_length=100)
-    descricao = models.TextField('Descrição', max_length=200)
+    servico = models.CharField('Serviço', max_length=150)
+    descricao = models.TextField('Descrição', max_length=400)
     icone = models.CharField('Ícone', max_length=13, choices=ICONE_CHOICES)
 
     class Meta:
@@ -52,7 +52,7 @@ class Cargo(Base):
 class Funcionario(Base):
     nome = models.CharField('Nome', max_length=100)
     cargo = models.ForeignKey('core.cargo', verbose_name='Cargo', on_delete=models.CASCADE)
-    bio = models.TextField('Bio', max_length=200)
+    bio = models.TextField('Bio', max_length=400)
     imagem = StdImageField('Imagem', upload_to=get_file_path, variations={'thumb': {'with':480, 'height':480, 'crop': True}})
     facebook = models.CharField('Facebook', max_length=100, default='#')
     twiter = models.CharField('Twiter', max_length=100, default='#')
@@ -77,8 +77,8 @@ class Recurso (Base):
         ('lni-users', 'Usuários'),
 
     }
-    recurso = models.CharField('Recurso', max_length=100)
-    descricao = models.TextField('Descrição', max_length=200)
+    recurso = models.CharField('Recurso', max_length=150)
+    descricao = models.TextField('Descrição', max_length=400)
     icone = models.CharField('Ícones', max_length=16, choices=ICONE_CHOICES)
 
     class Meta:
